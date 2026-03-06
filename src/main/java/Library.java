@@ -3,9 +3,10 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * The Library class manages a collection of books, allowing for adding, removing, and retrieving books by their ISBN.
- * This class can contain any type of book, including PaperBooks and Ebooks, as they both extend the Book class.
- * The primary way to identify and manage books in the library is through their ISBN, which is stored as a key in the HashMap.
+ * The <code>Library</code> class manages a collection of books, allowing for adding, removing, and retrieving books by their ISBN.</br>
+ * This class can contain any type of book, including <code>PaperBooks</code> and <code>Ebooks</code>, as they both extend the <code>Book</code> class.</br>
+ * The primary way to identify and manage books in the library is through their ISBN, which is stored as a key in the HashMap.</br>
+ * Since the ISBN is unique, this class adopts it to be used as the key for storing and retrieving books, ensuring that each book can be uniquely identified and accessed efficiently.
  */
 public class Library {
     private HashMap<String, Book> books;

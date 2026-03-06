@@ -1,5 +1,5 @@
 /**
- * Represents a book in the library.
+ * Represents a book in the library.</br>
  * This class serves as a base for different types of books.
  */
 public class Book {

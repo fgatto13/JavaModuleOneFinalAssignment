@@ -1,9 +1,8 @@
 /**
- * The PaperBook class represents a physical book with a weight property.
- * It extends the Book class and adds functionality specific to paper books.
- * This class includes a constructor to initialize the book's properties and getter/setter methods for the weight.
- * The weight is measured in grams and can be set and retrieved using the provided methods.
- * This class is meant to represent physical books, allowing us to manage and track the weight of each book.
+ * This is a subclass of the <code>Book</code> class that represents a paper book in the library.</br>
+ *  The <code>PaperBook</code> class inherits the properties and methods of the <code>Book</code> class and adds its own specific functionality:</br>
+ * - <code>weight</code>: An integer representing the weight of the paper book in grams.</br>
+ * For this attribute, a <code>getter</code> and a <code>setter</code> are provided, in order to access and modify it.
  */
 public class PaperBook extends Book {
     private int weight;

@@ -1,10 +1,10 @@
 
 /**
- * This is a subclass of the `Book` class that represents an ebook in the library.
+ * This is a subclass of the <code>Book</code> class that represents an ebook in the library.</br>
  * 
- * The `Ebook` class inherits the properties and methods of the `Book` class and adds its own specific functionality:
- * - `fileSize`: A double representing the file size of the ebook in megabytes.
- * For this attribute, a `getter` and a `setter` are provided, in order to access and modify it.
+ * The <code>Ebook</code> class inherits the properties and methods of the <code>Book</code> class and adds its own specific functionality:</br>
+ * - <code>fileSize</code>: A double representing the file size of the ebook in megabytes.</br>
+ * For this attribute, a <code>getter</code> and a <code>setter</code> are provided, in order to access and modify it.
  */
 public class Ebook extends Book {
     private double fileSize; // in megabytes
