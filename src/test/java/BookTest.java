@@ -191,15 +191,23 @@ class BookTest {
 
     @Test
     void testEbookCreation() {
-        // TODO: This test should verify that an Ebook can be created with the correct properties.
         // 1. Create a new Ebook object.
+        Ebook ebook = new Ebook("The Hobbit", "J.R.R. Tolkien", "12345678-90ab-cdef-1234-567890abcdef", 2.5);
         // 2. Verify that the book object has the correct properties (title, author, isbn, and file size).
+        assertEquals("The Hobbit", ebook.getTitle());
+        assertEquals("J.R.R. Tolkien", ebook.getAuthor());
+        assertEquals("12345678-90ab-cdef-1234-567890abcdef", ebook.getIsbn());
+        assertEquals(2.5, ebook.getFileSize(), 0.0);
     }
 
     @Test
     void testPaperBookCreation() {
-        // TODO: This test should verify that a PaperBook can be created with the correct properties.
         // 1. Create a new PaperBook object.
+        PaperBook paperBook = new PaperBook("The Hobbit", "J.R.R. Tolkien", "12345678-90ab-cdef-1234-567890abcdef", 500);
         // 2. Verify that the book object has the correct properties (title, author, isbn, and weight).
+        assertEquals("The Hobbit", paperBook.getTitle());
+        assertEquals("J.R.R. Tolkien", paperBook.getAuthor());
+        assertEquals("12345678-90ab-cdef-1234-567890abcdef", paperBook.getIsbn());
+        assertEquals(500, paperBook.getWeight());
     }
 }
